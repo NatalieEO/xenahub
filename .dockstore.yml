@@ -15,6 +15,7 @@ service:
      - port.sh
      - stop.sh
      - xena-all.json
+     - file-not-in-repo.json
 
   scripts:
     start: stand_up.sh
@@ -34,5 +35,4 @@ service:
             tsv:
                 description: Data for Xena in TSV format
             metadata:
-                description: The metadata, in JSON format, that corresponds to the previous tsv file
-asdfasdf asdf 
+                description: The metadata, in JSON format, that corresponds to the previous tsv file 
