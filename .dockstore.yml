@@ -1,6 +1,6 @@
 version: 1.2
 service:
-  subclass: docker-compose
+  subclass: DOCKER_COMPOSE
   name: UCSC Xena Browser
   author: UCSC Genomics Institute
   description: |
